@@ -1,6 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import service.SpeakerService;
+import com.pluralsight.service.SpeakerService;
 
 public class App {
 
