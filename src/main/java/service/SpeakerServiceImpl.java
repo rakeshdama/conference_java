@@ -18,4 +18,8 @@ public class SpeakerServiceImpl implements SpeakerService {
     public void setRepository(SpeakerRepository repository) {
         this.repository = repository;
     }
+
+    public SpeakerServiceImpl(SpeakerRepository repository) {
+        this.repository = repository;
+    }
 }
